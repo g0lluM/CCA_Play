@@ -1,6 +1,6 @@
-// @SOURCE:/home/antonin/IdeaProjects/HelloWorld/conf/routes
-// @HASH:4f41fe2b6f59f0d1d4aec1fd7f4615d1d3133677
-// @DATE:Wed Jul 06 10:34:58 BST 2016
+// @SOURCE:/home/antonin/IdeaProjects/CCA_Play/conf/routes
+// @HASH:97ed3b85267fe4f0eddcd17701cff6e839db09da
+// @DATE:Wed Jul 13 15:32:04 BST 2016
 
 import Routes.{prefix => _prefix, defaultPrefix => _defaultPrefix}
 import play.core._
@@ -14,6 +14,7 @@ import _root_.controllers.Assets.Asset
 import Router.queryString
 
 
+// @LINE:11
 // @LINE:9
 // @LINE:6
 package controllers {
@@ -32,6 +33,7 @@ def at(file:String): Call = {
 }
                           
 
+// @LINE:11
 // @LINE:6
 class ReverseApplication {
 
@@ -43,12 +45,20 @@ def index(): Call = {
 }
                         
 
+// @LINE:11
+def submit(): Call = {
+   import ReverseRouteContext.empty
+   Call("POST", _prefix + { _defaultPrefix } + "submit")
+}
+                        
+
 }
                           
 }
                   
 
 
+// @LINE:11
 // @LINE:9
 // @LINE:6
 package controllers.javascript {
@@ -72,6 +82,7 @@ def at : JavascriptReverseRoute = JavascriptReverseRoute(
 }
               
 
+// @LINE:11
 // @LINE:6
 class ReverseApplication {
 
@@ -87,12 +98,24 @@ def index : JavascriptReverseRoute = JavascriptReverseRoute(
 )
                         
 
+// @LINE:11
+def submit : JavascriptReverseRoute = JavascriptReverseRoute(
+   "controllers.Application.submit",
+   """
+      function() {
+      return _wA({method:"POST", url:"""" + _prefix + { _defaultPrefix } + """" + "submit"})
+      }
+   """
+)
+                        
+
 }
               
 }
         
 
 
+// @LINE:11
 // @LINE:9
 // @LINE:6
 package controllers.ref {
@@ -111,6 +134,7 @@ def at(path:String, file:String): play.api.mvc.HandlerRef[_] = new play.api.mvc.
 }
                           
 
+// @LINE:11
 // @LINE:6
 class ReverseApplication {
 
@@ -118,6 +142,12 @@ class ReverseApplication {
 // @LINE:6
 def index(): play.api.mvc.HandlerRef[_] = new play.api.mvc.HandlerRef(
    controllers.Application.index(), HandlerDef(this.getClass.getClassLoader, "", "controllers.Application", "index", Seq(), "GET", """ Home page""", _prefix + """""")
+)
+                      
+
+// @LINE:11
+def submit(): play.api.mvc.HandlerRef[_] = new play.api.mvc.HandlerRef(
+   controllers.Application.submit(), HandlerDef(this.getClass.getClassLoader, "", "controllers.Application", "submit", Seq(), "POST", """""", _prefix + """submit""")
 )
                       
 

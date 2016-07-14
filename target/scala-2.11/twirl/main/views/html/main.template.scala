@@ -36,21 +36,21 @@ Seq[Any](format.raw/*1.32*/("""
     <body>
         <div class="container">
             <h1>Publish your event below:</h1>
-            <form>
+            <form action="/submit" method="post">
                 <div class="row">
                     <div class="col-md-6"><p>Place of the event*:</p>
                         <p><input type="radio" name="City" value="London" selected="true"/>London</p>
                         <p><input type="radio" name="City" value="Cambridge"/>Cambridge</p>
 
-                        <p>Details*: <input type="text" id="eventPlace" required/></p>
-                        <p>Date of the event*: <input type="text" id="eventDate" required/></p>
-                        <p>Abstract of the event: <textarea rows=10 cols=40></textarea></p>
+                        <p>Details*: <input type="text" id="eventPlace" name="Details" required/></p>
+                        <p>Date of the event*: <input type="text" id="eventDate" name="Date" required/></p>
+                        <p>Abstract of the event: <textarea rows=10 cols=40 name="Abstract"></textarea></p>
                     </div>
                     <div class="col-md-6">
                         <p>Price*: <input type="radio" name="Price" value="Free" selected="true"/>Free <input type="radio" name="Price" value="Paying"/>Paying</p>
 
-                        <p>Speaker*: <input type="text" id="eventSpeaker" required/></p>
-                        <p>Picture: <input type="file" name="filename" accept="image/gif, image/jpeg, image/png"/></p>
+                        <p>Speaker*: <input type="text" id="eventSpeaker" name="Speaker" required/></p>
+                        <p>Picture: <input type="file" name="Picture" accept="image/gif, image/jpeg, image/png"/></p>
 
                         <input type="submit" value="Add event"/>
                     </div>
@@ -70,9 +70,9 @@ Seq[Any](format.raw/*1.32*/("""
 }
               /*
                   -- GENERATED --
-                  DATE: Thu Jul 07 16:21:00 BST 2016
-                  SOURCE: /home/antonin/IdeaProjects/HelloWorld/app/views/main.scala.html
-                  HASH: c2cc9c5c16981425fbc37d4f0b5ec57a0438d4d7
+                  DATE: Wed Jul 13 15:39:25 BST 2016
+                  SOURCE: /home/antonin/IdeaProjects/CCA_Play/app/views/main.scala.html
+                  HASH: e957240fc22df69655b253a1defa3f97b3da9015
                   MATRIX: 509->1|627->31|655->33
                   LINES: 19->1|22->1|24->3
                   -- GENERATED --

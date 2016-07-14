@@ -1,6 +1,6 @@
-// @SOURCE:/home/antonin/IdeaProjects/HelloWorld/conf/routes
-// @HASH:4f41fe2b6f59f0d1d4aec1fd7f4615d1d3133677
-// @DATE:Wed Jul 06 10:34:58 BST 2016
+// @SOURCE:/home/antonin/IdeaProjects/CCA_Play/conf/routes
+// @HASH:97ed3b85267fe4f0eddcd17701cff6e839db09da
+// @DATE:Wed Jul 13 15:32:04 BST 2016
 
 package controllers;
 

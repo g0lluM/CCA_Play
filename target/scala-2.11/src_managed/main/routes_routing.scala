@@ -1,6 +1,6 @@
-// @SOURCE:/home/antonin/IdeaProjects/HelloWorld/conf/routes
-// @HASH:4f41fe2b6f59f0d1d4aec1fd7f4615d1d3133677
-// @DATE:Wed Jul 06 10:34:58 BST 2016
+// @SOURCE:/home/antonin/IdeaProjects/CCA_Play/conf/routes
+// @HASH:97ed3b85267fe4f0eddcd17701cff6e839db09da
+// @DATE:Wed Jul 13 15:32:04 BST 2016
 
 
 import play.core._
@@ -44,7 +44,14 @@ private[this] lazy val controllers_Assets_at1_invoker = createInvoker(
 controllers.Assets.at(fakeValue[String], fakeValue[String]),
 HandlerDef(this.getClass.getClassLoader, "", "controllers.Assets", "at", Seq(classOf[String], classOf[String]),"GET", """ Map static resources from the /public folder to the /assets URL path""", Routes.prefix + """assets/$file<.+>"""))
         
-def documentation = List(("""GET""", prefix,"""controllers.Application.index"""),("""GET""", prefix + (if(prefix.endsWith("/")) "" else "/") + """assets/$file<.+>""","""controllers.Assets.at(path:String = "/public", file:String)""")).foldLeft(List.empty[(String,String,String)]) { (s,e) => e.asInstanceOf[Any] match {
+
+// @LINE:11
+private[this] lazy val controllers_Application_submit2_route = Route("POST", PathPattern(List(StaticPart(Routes.prefix),StaticPart(Routes.defaultPrefix),StaticPart("submit"))))
+private[this] lazy val controllers_Application_submit2_invoker = createInvoker(
+controllers.Application.submit,
+HandlerDef(this.getClass.getClassLoader, "", "controllers.Application", "submit", Nil,"POST", """""", Routes.prefix + """submit"""))
+        
+def documentation = List(("""GET""", prefix,"""controllers.Application.index"""),("""GET""", prefix + (if(prefix.endsWith("/")) "" else "/") + """assets/$file<.+>""","""controllers.Assets.at(path:String = "/public", file:String)"""),("""POST""", prefix + (if(prefix.endsWith("/")) "" else "/") + """submit""","""controllers.Application.submit""")).foldLeft(List.empty[(String,String,String)]) { (s,e) => e.asInstanceOf[Any] match {
   case r @ (_,_,_) => s :+ r.asInstanceOf[(String,String,String)]
   case l => s ++ l.asInstanceOf[List[(String,String,String)]]
 }}
@@ -64,6 +71,14 @@ case controllers_Application_index0_route(params) => {
 case controllers_Assets_at1_route(params) => {
    call(Param[String]("path", Right("/public")), params.fromPath[String]("file", None)) { (path, file) =>
         controllers_Assets_at1_invoker.call(controllers.Assets.at(path, file))
+   }
+}
+        
+
+// @LINE:11
+case controllers_Application_submit2_route(params) => {
+   call { 
+        controllers_Application_submit2_invoker.call(controllers.Application.submit)
    }
 }
         
