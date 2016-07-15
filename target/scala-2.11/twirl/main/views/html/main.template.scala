@@ -40,7 +40,7 @@ Seq[Any](format.raw/*1.32*/("""
             <form action="/submit" method="post">
                 <div class="row">
                     <div class="col-md-6"><p>Place of the event*:</p>
-                        <p><input type="radio" name="City" value="London" selected="true"/>London</p>
+                        <p><input type="radio" name="City" value="London" selected="true" required/>London</p>
                         <p><input type="radio" name="City" value="Cambridge"/>Cambridge</p><br>
 
                         <p>Details*<br><input type="text" id="eventPlace" name="Details" required/></p>
@@ -48,10 +48,10 @@ Seq[Any](format.raw/*1.32*/("""
                         <p>Abstract of the event<br><textarea rows=10 cols=40 name="Abstract"></textarea></p>
                     </div>
                     <div class="col-md-6">
-                        <p>Price*<br><input type="radio" name="Price" value="Free" selected="true"/>Free <input type="radio" name="Price" value="Paying"/>Paying</p>
+                        <p>Price*: <input type="radio" name="Price" value="Free" selected="true" required/>Free <input type="radio" name="Price" value="Paying"/>Paying</p>
 
-                        <p>Speaker*<br><input type="text" id="eventSpeaker" name="Speaker" required/></p>
-                        <p>Picture<br><input type="file" name="Picture" accept="image/gif, image/jpeg, image/png"/></p>
+                        <p><br>Speaker*<br><input type="text" id="eventSpeaker" name="Speaker" required/></p>
+                        <p><br>Picture<br><input type="file" name="Picture" accept="image/gif, image/jpeg, image/png"/></p>
 
                         <br><br><br><br><br><br><input type="submit" value="Add event"/>
                     </div>
@@ -71,9 +71,9 @@ Seq[Any](format.raw/*1.32*/("""
 }
               /*
                   -- GENERATED --
-                  DATE: Fri Jul 15 10:54:30 BST 2016
+                  DATE: Fri Jul 15 14:54:21 BST 2016
                   SOURCE: /home/antonin/IdeaProjects/CCA_Play/app/views/main.scala.html
-                  HASH: 75977adab6f92eacf2586f3a0a7871f5b3817971
+                  HASH: 5edc88c26711c3a0d0cf7fe78e91551c8b5f0469
                   MATRIX: 509->1|627->31|655->33
                   LINES: 19->1|22->1|24->3
                   -- GENERATED --

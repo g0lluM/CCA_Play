@@ -23,9 +23,10 @@ object Application extends Controller {
 
     val text = "\n" + eventPlace + "\t" + eventDetails + "\t" + eventDate + "\t" + eventAbstract + "\t" + eventPrice + "\t" + eventPicture + "\t" + eventSpeaker
 
-    val pw = new PrintWriter(new FileOutputStream("/home/antonin/Bureau/test", true)); // Open file with add mode
+    val pw = new PrintWriter(new FileOutputStream("events", true)); // Open file with add mode
     pw.write(text)
     pw.close()
+
     Ok("Event added!")
   }
 }
