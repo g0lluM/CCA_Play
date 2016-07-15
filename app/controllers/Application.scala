@@ -13,12 +13,6 @@ object Application extends Controller {
 
   def submit = Action { implicit request =>
 
-
-
-    val pw = new PrintWriter(new FileOutputStream("/home/antonin/Bureau/test", true)); // Open file with add mode
-
-    println(pw)
-
     val eventPlace = request.body.asFormUrlEncoded.get("City")(0)
     val eventDetails = request.body.asFormUrlEncoded.get("Details")(0)
     val eventDate = request.body.asFormUrlEncoded.get("Date")(0)
@@ -29,11 +23,9 @@ object Application extends Controller {
 
     val text = "\n" + eventPlace + "\t" + eventDetails + "\t" + eventDate + "\t" + eventAbstract + "\t" + eventPrice + "\t" + eventPicture + "\t" + eventSpeaker
 
-    println(text)
+    val pw = new PrintWriter(new FileOutputStream("/home/antonin/Bureau/test", true)); // Open file with add mode
     pw.write(text)
     pw.close()
-    Ok(text)
-
+    Ok("Event added!")
   }
-
 }
