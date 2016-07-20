@@ -1,0 +1,19 @@
+@(events: Array[String])
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Events lists</title>
+
+</head>
+
+<body>
+    <p>
+    @for(i <- 0 until events.length) {
+      @events(i)<br>
+      }
+    </p>
+</body>
+</html>
+

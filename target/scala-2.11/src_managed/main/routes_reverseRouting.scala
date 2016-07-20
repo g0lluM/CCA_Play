@@ -1,6 +1,6 @@
 // @SOURCE:/home/antonin/IdeaProjects/CCA_Play/conf/routes
-// @HASH:97ed3b85267fe4f0eddcd17701cff6e839db09da
-// @DATE:Wed Jul 13 15:32:04 BST 2016
+// @HASH:c6cf607f3c3b0ef03b98a31e1cec952d9aee1bf3
+// @DATE:Tue Jul 19 16:26:03 BST 2016
 
 import Routes.{prefix => _prefix, defaultPrefix => _defaultPrefix}
 import play.core._
@@ -14,29 +14,38 @@ import _root_.controllers.Assets.Asset
 import Router.queryString
 
 
-// @LINE:11
+// @LINE:12
+// @LINE:10
 // @LINE:9
 // @LINE:6
 package controllers {
 
-// @LINE:9
+// @LINE:10
 class ReverseAssets {
 
 
-// @LINE:9
+// @LINE:10
 def at(file:String): Call = {
-   implicit val _rrc = new ReverseRouteContext(Map(("path", "/public")))
-   Call("GET", _prefix + { _defaultPrefix } + "assets/" + implicitly[PathBindable[String]].unbind("file", file))
+   implicit val _rrc = new ReverseRouteContext(Map(("path", "/")))
+   Call("GET", _prefix + { _defaultPrefix } + implicitly[PathBindable[String]].unbind("file", file))
 }
                         
 
 }
                           
 
-// @LINE:11
+// @LINE:12
+// @LINE:9
 // @LINE:6
 class ReverseApplication {
 
+
+// @LINE:9
+def showEvents(): Call = {
+   import ReverseRouteContext.empty
+   Call("GET", _prefix + { _defaultPrefix } + "showEvents")
+}
+                        
 
 // @LINE:6
 def index(): Call = {
@@ -45,7 +54,7 @@ def index(): Call = {
 }
                         
 
-// @LINE:11
+// @LINE:12
 def submit(): Call = {
    import ReverseRouteContext.empty
    Call("POST", _prefix + { _defaultPrefix } + "submit")
@@ -58,22 +67,23 @@ def submit(): Call = {
                   
 
 
-// @LINE:11
+// @LINE:12
+// @LINE:10
 // @LINE:9
 // @LINE:6
 package controllers.javascript {
 import ReverseRouteContext.empty
 
-// @LINE:9
+// @LINE:10
 class ReverseAssets {
 
 
-// @LINE:9
+// @LINE:10
 def at : JavascriptReverseRoute = JavascriptReverseRoute(
    "controllers.Assets.at",
    """
       function(file) {
-      return _wA({method:"GET", url:"""" + _prefix + { _defaultPrefix } + """" + "assets/" + (""" + implicitly[PathBindable[String]].javascriptUnbind + """)("file", file)})
+      return _wA({method:"GET", url:"""" + _prefix + { _defaultPrefix } + """" + (""" + implicitly[PathBindable[String]].javascriptUnbind + """)("file", file)})
       }
    """
 )
@@ -82,10 +92,22 @@ def at : JavascriptReverseRoute = JavascriptReverseRoute(
 }
               
 
-// @LINE:11
+// @LINE:12
+// @LINE:9
 // @LINE:6
 class ReverseApplication {
 
+
+// @LINE:9
+def showEvents : JavascriptReverseRoute = JavascriptReverseRoute(
+   "controllers.Application.showEvents",
+   """
+      function() {
+      return _wA({method:"GET", url:"""" + _prefix + { _defaultPrefix } + """" + "showEvents"})
+      }
+   """
+)
+                        
 
 // @LINE:6
 def index : JavascriptReverseRoute = JavascriptReverseRoute(
@@ -98,7 +120,7 @@ def index : JavascriptReverseRoute = JavascriptReverseRoute(
 )
                         
 
-// @LINE:11
+// @LINE:12
 def submit : JavascriptReverseRoute = JavascriptReverseRoute(
    "controllers.Application.submit",
    """
@@ -115,29 +137,37 @@ def submit : JavascriptReverseRoute = JavascriptReverseRoute(
         
 
 
-// @LINE:11
+// @LINE:12
+// @LINE:10
 // @LINE:9
 // @LINE:6
 package controllers.ref {
 
 
-// @LINE:9
+// @LINE:10
 class ReverseAssets {
 
 
-// @LINE:9
+// @LINE:10
 def at(path:String, file:String): play.api.mvc.HandlerRef[_] = new play.api.mvc.HandlerRef(
-   controllers.Assets.at(path, file), HandlerDef(this.getClass.getClassLoader, "", "controllers.Assets", "at", Seq(classOf[String], classOf[String]), "GET", """ Map static resources from the /public folder to the /assets URL path""", _prefix + """assets/$file<.+>""")
+   controllers.Assets.at(path, file), HandlerDef(this.getClass.getClassLoader, "", "controllers.Assets", "at", Seq(classOf[String], classOf[String]), "GET", """""", _prefix + """$file<.+>""")
 )
                       
 
 }
                           
 
-// @LINE:11
+// @LINE:12
+// @LINE:9
 // @LINE:6
 class ReverseApplication {
 
+
+// @LINE:9
+def showEvents(): play.api.mvc.HandlerRef[_] = new play.api.mvc.HandlerRef(
+   controllers.Application.showEvents(), HandlerDef(this.getClass.getClassLoader, "", "controllers.Application", "showEvents", Seq(), "GET", """ Map static resources from the /public folder to the /assets URL path""", _prefix + """showEvents""")
+)
+                      
 
 // @LINE:6
 def index(): play.api.mvc.HandlerRef[_] = new play.api.mvc.HandlerRef(
@@ -145,7 +175,7 @@ def index(): play.api.mvc.HandlerRef[_] = new play.api.mvc.HandlerRef(
 )
                       
 
-// @LINE:11
+// @LINE:12
 def submit(): play.api.mvc.HandlerRef[_] = new play.api.mvc.HandlerRef(
    controllers.Application.submit(), HandlerDef(this.getClass.getClassLoader, "", "controllers.Application", "submit", Seq(), "POST", """""", _prefix + """submit""")
 )

@@ -1,6 +1,6 @@
 // @SOURCE:/home/antonin/IdeaProjects/CCA_Play/conf/routes
-// @HASH:97ed3b85267fe4f0eddcd17701cff6e839db09da
-// @DATE:Wed Jul 13 15:32:04 BST 2016
+// @HASH:c6cf607f3c3b0ef03b98a31e1cec952d9aee1bf3
+// @DATE:Tue Jul 19 16:26:03 BST 2016
 
 package controllers;
 

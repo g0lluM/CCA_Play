@@ -3,12 +3,13 @@ package controllers
 import play.api._
 import play.api.mvc._
 import java.io._
+import scala.io.Source._
 
 
 object Application extends Controller {
 
   def index = Action {
-    Ok(views.html.index("It works!"))
+    Ok(views.html.index.apply)
   }
 
   def submit = Action { implicit request =>
@@ -28,5 +29,19 @@ object Application extends Controller {
     pw.close()
 
     Ok("Event added!")
+  }
+
+  def showEvents = Action {
+
+    val events = new Array[String](100)
+    var i = 0
+
+    for(line <- fromFile("events").getLines)
+    {
+      events(i) = line
+      i = i+1
+    }
+    //Ok("")
+    Ok(views.html.showEvents(events))
   }
 }
