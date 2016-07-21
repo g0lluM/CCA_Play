@@ -48,10 +48,9 @@ Seq[Any](format.raw/*1.1*/("""<!DOCTYPE html>
             <div class="col-md-6">
                 <p>Price*: <input type="radio" name="Price" value="Free" selected="true" required/>Free <input type="radio" name="Price" value="Paying"/>Paying</p>
 
-                <p><br>Speaker*<br><input type="text" id="eventSpeaker" name="Speaker" required/></p>
-                <p><br>Picture<br><input type="file" name="Picture" accept="image/gif, image/jpeg, image/png"/></p>
+                <p>Speaker*<br><input type="text" id="eventSpeaker" name="Speaker" required/></p>
 
-                <br><br><br><br><br><br><input type="submit" value="Add event"/>
+                <input type="submit" value="Add event"/>
             </div>
     </form>
 </div>
@@ -69,9 +68,9 @@ Seq[Any](format.raw/*1.1*/("""<!DOCTYPE html>
 }
               /*
                   -- GENERATED --
-                  DATE: Wed Jul 20 11:14:33 BST 2016
+                  DATE: Thu Jul 21 13:18:04 BST 2016
                   SOURCE: /home/antonin/IdeaProjects/CCA_Play/app/views/addEvent.scala.html
-                  HASH: b92a1655f56a73911e9e61e2855dee403d2458ac
+                  HASH: a79c2ba38785bb38abb1a4f1aa9dd745b99c414a
                   MATRIX: 583->0
                   LINES: 22->1
                   -- GENERATED --

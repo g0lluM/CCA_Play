@@ -4,16 +4,19 @@
 <html>
 <head>
     <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="/public/stylesheets/bootstrap.css"/>
     <title>Events lists</title>
 
 </head>
 
 <body>
-    <p>
+   <div class="container">
+    <h3> Here is the list of events:</h3>
+    <p><strong>City   Details   Date   Abstract   Price   Speaker</strong></p><br>
     @for(i <- 0 until events.length) {
-      @events(i)<br>
+      <p>@events(i)</p>
       }
-    </p>
+   </div>
 </body>
 </html>
 
