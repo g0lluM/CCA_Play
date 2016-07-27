@@ -10,6 +10,7 @@ object Application extends Controller {
 
   def index = Action {
     Ok(views.html.index.apply)
+    // Ok("view")
   }
 
   def submit = Action { implicit request =>
@@ -36,15 +37,16 @@ object Application extends Controller {
 
   def showEvents = Action {
 
-    val events = new Array[String](100)
+    val events = Array.ofDim[String](50,50)
     var i = 0
 
     for(line <- fromFile("events").getLines)
     {
-      events(i) = line
+      events(i) = line.split(" ")
       i = i+1
+     // println(events(i))
     }
-    //Ok("")
     Ok(views.html.showEvents(events))
+    //Ok("")
   }
 }

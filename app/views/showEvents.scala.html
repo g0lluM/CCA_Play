@@ -1,4 +1,4 @@
-@(events: Array[String])
+@(events: Array[Array[String]])
 
 <!DOCTYPE html>
 <html>
@@ -9,14 +9,52 @@
 
 </head>
 
-<body>
-   <div class="container">
-    <h3> Here is the list of the events:</h3>
-    <p><strong>City   Details   Date   Abstract   Price   Speaker</strong></p><br>
-    @for(i <- 0 until events.length) {
-      <p>@events(i)</p>
-      }
+ <body>
+ <h3> Here is the list of the events:</h3>
+ <div class="row">
+  <div class="col-md-2">
+   <p><strong>City</strong></p>
+  </div>
+  <div class="col-md-2">
+   <p><strong>Details</strong></p>
+  </div>
+  <div class="col-md-2">
+   <p><strong>Date</strong></p>
+  </div>
+  <div class="col-md-2">
+   <p><strong>Abstract</strong></p>
+  </div>
+  <div class="col-md-2">
+   <p><strong>Price</strong></p>
+  </div>
+  <div class="col-md-2">
+   <p><strong>Speaker</strong></p>
+  </div>
+ </div>
+
+
+ @for(i <- 0 until events.length) {
+  <div class="row">
+   <div class="col-md-2">
+    <p>@events(i)(0)</p>
    </div>
-</body>
+   <div class="col-md-2">
+    <p>@events(i)(1)</p>
+   </div>
+   <div class="col-md-2">
+    <p>@events(i)(2)</p>
+   </div>
+   <div class="col-md-2">
+    <p>@events(i)(3)</p>
+   </div>
+   <div class="col-md-2">
+    <p>@events(i)(4)</p>
+   </div>
+   <div class="col-md-2">
+    <p>@events(i)(5)</p>
+   </div>
+  </div>
+}
+ </body>
 </html>
 

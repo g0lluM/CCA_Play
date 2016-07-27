@@ -12,4 +12,3 @@ libraryDependencies ++= Seq(
   cache,
   ws
 )
-

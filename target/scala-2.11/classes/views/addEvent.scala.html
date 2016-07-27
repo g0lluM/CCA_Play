@@ -10,29 +10,81 @@
     <script src="/public/javascripts/jquery-ui.js"></script>
     <script src="/public/javascripts/check_fields.js"></script>
 </head>
-
 <body>
-<div class="container">
-    <h1>Publish your event below:</h1>
-    <form action="/submit" method="post">
-        <div class="row">
-            <div class="col-md-6"><p>Place of the event*:</p>
-                <p><input type="radio" name="City" value="London" selected="true" required/>London</p>
-                <p><input type="radio" name="City" value="Cambridge"/>Cambridge</p><br>
 
-                <p>Details*<br><input type="text" id="eventPlace" name="Details" required/></p>
-                <p>Date of the event*<br><input type="text" id="eventDate" name="Date" required/></p>
-                <p>Abstract of the event<br><textarea rows=10 cols=40 name="Abstract"></textarea></p>
-            </div>
-            <div class="col-md-6">
-                <p>Price*: <input type="radio" name="Price" value="Free" selected="true" required/>Free <input type="radio" name="Price" value="Paying"/>Paying</p>
-
-                <p>Speaker*<br><input type="text" id="eventSpeaker" name="Speaker" required/></p>
-
-                <input type="submit" value="Add event"/>
-            </div>
-    </form>
+<div class="row">
+    <div class="col-md-4">
+    </div>
+    <div class="col-md-4">
+        <h3>Publish your event below:</h3>
+    </div>
+    <div class="col-md-4">
+    </div>
 </div>
-</div>
+<form action="/submit" method="post">
+    <div class="row">
+        <div class="col-md-4">
+            <p>Place*:</p>
+            <div class="form-group form-group-sm">
+                <label class="radio-inline">
+                    <input type="radio" name="City" value="London" required/>London
+                </label>
+                <label class="radio-inline">
+                    <input type="radio" name="City" value="Cambridge"/>Cambridge
+                </label>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="form-group form-group-sm">
+                <label class="col-sm-4 control-label" for="Details">Details*:
+                    <input type="text" class="form-control" id="Details" name="Details" required/>
+                </label>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="form-group form-group-sm">
+                <label class="col-sm-4 control-label" for="eventDate">Date*:
+                    <input type="text" class="form-control" id="eventDate" name="Date" required/>
+                </label>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-4">
+            <p>Price*:</p>
+            <div class="form-group form-group-sm">
+                <label class="radio-inline">
+                    <input type="radio" name="Price" value="Free"required/>Free
+                </label>
+                <label class="radio-inline">
+                    <input type="radio" name="Price" value="Paying"/>Paying
+                </label>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="form-group form-group-sm">
+                <label class="control-label" for="Abstract">Abstract:
+                    <textarea  class="form-control" id="Abstract" rows=3 cols=30 name="Abstract"></textarea>
+                </label>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="form-group form-group-sm">
+                <label class="col-sm-4 control-label" for="Speaker">Speaker*:
+                    <input type="text" class="form-control" id="Speaker" name="Speaker" required/>
+                </label>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-4">
+        </div>
+        <div class="col-md-4">
+            <input type="submit" value="Add event"/>
+        </div>
+        <div class="col-md-4">
+        </div>
+    </div>
+</form>
 </body>
-</html> 
+</html>

@@ -1,9 +1,0 @@
-[0m[[0minfo[0m] [0mPackaging /home/antonin/IdeaProjects/HelloWorld/target/scala-2.11/play-scala_2.11-1.0-sources.jar ...[0m
-[0m[[0mdebug[0m] [0mInput file mappings:[0m
-[0m[[0mdebug[0m] [0m	application.conf[0m
-[0m[[0mdebug[0m] [0m	  /home/antonin/IdeaProjects/HelloWorld/conf/application.conf[0m
-[0m[[0mdebug[0m] [0m	routes[0m
-[0m[[0mdebug[0m] [0m	  /home/antonin/IdeaProjects/HelloWorld/conf/routes[0m
-[0m[[0mdebug[0m] [0m	controllers/Application.scala[0m
-[0m[[0mdebug[0m] [0m	  /home/antonin/IdeaProjects/HelloWorld/app/controllers/Application.scala[0m
-[0m[[0minfo[0m] [0mDone packaging.[0m

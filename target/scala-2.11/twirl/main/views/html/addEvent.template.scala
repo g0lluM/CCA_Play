@@ -68,7 +68,7 @@ Seq[Any](format.raw/*1.1*/("""<!DOCTYPE html>
 }
               /*
                   -- GENERATED --
-                  DATE: Thu Jul 21 13:18:04 BST 2016
+                  DATE: Tue Jul 26 15:37:34 BST 2016
                   SOURCE: /home/antonin/IdeaProjects/CCA_Play/app/views/addEvent.scala.html
                   HASH: a79c2ba38785bb38abb1a4f1aa9dd745b99c414a
                   MATRIX: 583->0

@@ -27,8 +27,10 @@ Seq[Any](format.raw/*1.1*/("""<!DOCTYPE html>
 </head>
 
 <body>
- <h1>What do you want to do?</h1>
+ <div class="container">
+  <h1>What do you want to do?</h1>
   <p>You can either <a href="/views/addEvent.scala.html">add</a> an event or <a href="/showEvents">list</a> events<p>
+ </div>
 </body>
 </html>"""))}
   }
@@ -42,9 +44,9 @@ Seq[Any](format.raw/*1.1*/("""<!DOCTYPE html>
 }
               /*
                   -- GENERATED --
-                  DATE: Thu Jul 21 13:31:49 BST 2016
+                  DATE: Fri Jul 22 10:49:02 BST 2016
                   SOURCE: /home/antonin/IdeaProjects/CCA_Play/app/views/index.scala.html
-                  HASH: 3287c1f19e6811d34a55e1a40489cebe9aad5022
+                  HASH: a1239722079e6690ad3dd8b2c60fe5f60305f982
                   MATRIX: 580->0
                   LINES: 22->1
                   -- GENERATED --
