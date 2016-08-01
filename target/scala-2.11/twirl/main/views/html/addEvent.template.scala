@@ -33,30 +33,55 @@ Seq[Any](format.raw/*1.1*/("""<!DOCTYPE html>
 </head>
 
 <body>
-<div class="container">
-    <h1>Publish your event below:</h1>
+    <h3>Publish your event below:</h3>
     <form action="/submit" method="post">
         <div class="row">
-            <div class="col-md-6"><p>Place of the event*:</p>
-                <p><input type="radio" name="City" value="London" selected="true" required/>London</p>
-                <p><input type="radio" name="City" value="Cambridge"/>Cambridge</p><br>
-
-                <p>Details*<br><input type="text" id="eventPlace" name="Details" required/></p>
-                <p>Date of the event*<br><input type="text" id="eventDate" name="Date" required/></p>
-                <p>Abstract of the event<br><textarea rows=10 cols=40 name="Abstract"></textarea></p>
+            <div class="col-md-4">
+                <label>Place*:
+                    <input type="radio" name="City" value="London" selected="true" required/>London
+                    <input type="radio" name="City" value="Cambridge"/>Cambridge
+                </label>
             </div>
-            <div class="col-md-6">
-                <p>Price*: <input type="radio" name="Price" value="Free" selected="true" required/>Free <input type="radio" name="Price" value="Paying"/>Paying</p>
-
-                <p>Speaker*<br><input type="text" id="eventSpeaker" name="Speaker" required/></p>
-
+            <div class="col-md-4">
+                <label>Details*:
+                    <input type="text" id="eventPlace" name="Details" required/>
+                </label>
+            </div>
+            <div class="col-md-4">
+                <label>Abstract*: </label>
+                <textarea name="Abstract" required></textarea>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-4">
+                <label>Date*:
+                     <input type="text" id="eventDate" name="Date" required/>
+                </label>
+            </div>
+            <div class="col-md-4">
+                <label>Price*:
+                    <input type="radio" name="Price" value="Free" required/>Free
+                    <input type="radio" name="Price" value="Paying"/>Paying
+                </label>
+            </div>
+            <div class="col-md-4">
+                <label>Speaker*:
+                    <input type="text" id="eventSpeaker" name="Speaker" required/>
+                </label>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-4">
+            </div>
+            <div class="col-md-4">
                 <input type="submit" value="Add event"/>
             </div>
+            <div class="col-md-4">
+            </div>
+        </div>
     </form>
-</div>
-</div>
 </body>
-</html> """))}
+</html>"""))}
   }
 
   def render(): play.twirl.api.HtmlFormat.Appendable = apply()
@@ -68,9 +93,9 @@ Seq[Any](format.raw/*1.1*/("""<!DOCTYPE html>
 }
               /*
                   -- GENERATED --
-                  DATE: Tue Jul 26 15:37:34 BST 2016
+                  DATE: Mon Aug 01 16:20:24 BST 2016
                   SOURCE: /home/antonin/IdeaProjects/CCA_Play/app/views/addEvent.scala.html
-                  HASH: a79c2ba38785bb38abb1a4f1aa9dd745b99c414a
+                  HASH: 45ae25ed75c9fc518703523eeda2364148616a7a
                   MATRIX: 583->0
                   LINES: 22->1
                   -- GENERATED --

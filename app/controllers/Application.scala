@@ -19,10 +19,6 @@ object Application extends Controller {
     val eventDetails = request.body.asFormUrlEncoded.get("Details")(0)
     val eventDate = request.body.asFormUrlEncoded.get("Date")(0)
     var eventAbstract = request.body.asFormUrlEncoded.get("Abstract")(0)
-
-    if (eventAbstract == "")
-      eventAbstract = "  "
-
     val eventPrice = request.body.asFormUrlEncoded.get("Price")(0)
     val eventSpeaker = request.body.asFormUrlEncoded.get("Speaker")(0)
 

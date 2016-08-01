@@ -2,375 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ef5a729d-44c4-4311-a778-3239e64fd736" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/play-scala-1.0-assets.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/resolution-cache/play-scala/play-scala$sources_2.11/1.0/resolved.xml.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/resolution-cache/play-scala/play-scala$sources_2.11/1.0/resolved.xml.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/play-scala-play-scala$sources_2.11-compile-internal.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/play-scala-play-scala$sources_2.11-compile.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/play-scala-play-scala$sources_2.11-docs.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/play-scala-play-scala$sources_2.11-optional.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/play-scala-play-scala$sources_2.11-plugin.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/play-scala-play-scala$sources_2.11-pom.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/play-scala-play-scala$sources_2.11-provided.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/play-scala-play-scala$sources_2.11-runtime-internal.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/play-scala-play-scala$sources_2.11-runtime.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/play-scala-play-scala$sources_2.11-scala-tool.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/play-scala-play-scala$sources_2.11-sources.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/play-scala-play-scala$sources_2.11-test-internal.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/play-scala-play-scala$sources_2.11-test.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/api/Routes$.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/api/controllers/Application$.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/api/controllers/ReverseApplication.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/api/controllers/ReverseAssets.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/api/controllers/javascript/ReverseApplication.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/api/controllers/javascript/ReverseAssets.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/api/controllers/javascript/package.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/api/controllers/package.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/api/controllers/ref/ReverseApplication.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/api/controllers/ref/ReverseAssets.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/api/controllers/ref/package.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/api/controllers/routes.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/api/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/api/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/api/index/index-a.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/api/index/index-c.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/api/index/index-d.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/api/index/index-f.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/api/index/index-h.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/api/index/index-i.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/api/index/index-j.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/api/index/index-m.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/api/index/index-p.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/api/index/index-r.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/api/index/index-s.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/api/index/index-v.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/api/lib/arrow-down.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/api/lib/arrow-right.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/api/lib/class.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/api/lib/class_big.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/api/lib/class_diagram.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/api/lib/class_to_object_big.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/api/lib/constructorsbg.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/api/lib/conversionbg.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/api/lib/defbg-blue.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/api/lib/defbg-green.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/api/lib/diagrams.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/api/lib/diagrams.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/api/lib/filter_box_left.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/api/lib/filter_box_left2.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/api/lib/filter_box_right.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/api/lib/filterbg.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/api/lib/filterboxbarbg.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/api/lib/filterboxbarbg.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/api/lib/filterboxbg.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/api/lib/fullcommenttopbg.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/api/lib/index.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/api/lib/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/api/lib/jquery-ui.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/api/lib/jquery.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/api/lib/jquery.layout.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/api/lib/modernizr.custom.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/api/lib/navigation-li-a.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/api/lib/navigation-li.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/api/lib/object.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/api/lib/object_big.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/api/lib/object_diagram.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/api/lib/object_to_class_big.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/api/lib/object_to_trait_big.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/api/lib/object_to_type_big.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/api/lib/ownderbg2.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/api/lib/ownerbg.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/api/lib/ownerbg2.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/api/lib/package.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/api/lib/package_big.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/api/lib/packagesbg.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/api/lib/permalink.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/api/lib/ref-index.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/api/lib/remove.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/api/lib/scheduler.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/api/lib/selected-implicits.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/api/lib/selected-right-implicits.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/api/lib/selected-right.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/api/lib/selected.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/api/lib/selected2-right.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/api/lib/selected2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/api/lib/signaturebg.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/api/lib/signaturebg2.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/api/lib/template.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/api/lib/template.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/api/lib/tools.tooltip.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/api/lib/trait.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/api/lib/trait_big.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/api/lib/trait_diagram.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/api/lib/trait_to_object_big.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/api/lib/type.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/api/lib/type_big.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/api/lib/type_diagram.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/api/lib/type_to_object_big.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/api/lib/typebg.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/api/lib/unselected.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/api/lib/valuemembersbg.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/api/package.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/api/views/html/index$.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/api/views/html/main$.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/api/views/html/package.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/api/views/package.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/views/index.scala.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/views/showEvents.scala.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/play-scala_2.11-1.0-javadoc.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/play-scala_2.11-1.0-sources.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/play-scala_2.11-1.0.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/play-scala_2.11-1.0.pom" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/twirl/main/views/html/showEvents.template.scala" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/streams/$global/$global/dumpStructure/$global/streams/out" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/streams/$global/makePom/$global/streams/out" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/streams/$global/playPackageAssets/$global/streams/inputs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/streams/$global/playPackageAssets/$global/streams/out" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/streams/$global/playPackageAssets/$global/streams/output" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/streams/$global/updateClassifiers/$global/streams/out" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/streams/compile/doc/$global/streams/export" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/streams/compile/doc/$global/streams/out" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/streams/compile/doc/$global/streams/scala/inputs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/streams/compile/doc/$global/streams/scala/output" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/streams/compile/packageBin/$global/streams/inputs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/streams/compile/packageBin/$global/streams/out" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/streams/compile/packageBin/$global/streams/output" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/streams/compile/packageDoc/$global/streams/inputs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/streams/compile/packageDoc/$global/streams/out" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/streams/compile/packageDoc/$global/streams/output" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/streams/compile/packageSrc/$global/streams/inputs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/streams/compile/packageSrc/$global/streams/out" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/streams/compile/packageSrc/$global/streams/output" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/streams/runtime/dependencyClasspath/$global/streams/export" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/streams/test/externalDependencyClasspath/$global/streams/export" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/streams/test/managedClasspath/$global/streams/export" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/streams/universal/dist/$global/streams/out" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/universal/play-scala-1.0.zip" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/universal/play-scala-1.0/README" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/universal/play-scala-1.0/bin/play-scala" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/universal/play-scala-1.0/bin/play-scala.bat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/universal/play-scala-1.0/conf/application.conf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/universal/play-scala-1.0/lib/ch.qos.logback.logback-classic-1.1.1.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/universal/play-scala-1.0/lib/ch.qos.logback.logback-core-1.1.1.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/universal/play-scala-1.0/lib/com.fasterxml.jackson.core.jackson-annotations-2.3.2.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/universal/play-scala-1.0/lib/com.fasterxml.jackson.core.jackson-core-2.3.2.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/universal/play-scala-1.0/lib/com.fasterxml.jackson.core.jackson-databind-2.3.2.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/universal/play-scala-1.0/lib/com.google.guava.guava-16.0.1.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/universal/play-scala-1.0/lib/com.h2database.h2-1.3.175.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/universal/play-scala-1.0/lib/com.jolbox.bonecp-0.8.0.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/universal/play-scala-1.0/lib/com.ning.async-http-client-1.8.14.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/universal/play-scala-1.0/lib/com.typesafe.akka.akka-actor_2.11-2.3.4.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/universal/play-scala-1.0/lib/com.typesafe.akka.akka-slf4j_2.11-2.3.4.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/universal/play-scala-1.0/lib/com.typesafe.config-1.2.1.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/universal/play-scala-1.0/lib/com.typesafe.netty.netty-http-pipelining-1.1.2.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/universal/play-scala-1.0/lib/com.typesafe.play.anorm_2.11-2.3.6.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/universal/play-scala-1.0/lib/com.typesafe.play.build-link-2.3.6.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/universal/play-scala-1.0/lib/com.typesafe.play.play-cache_2.11-2.3.6.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/universal/play-scala-1.0/lib/com.typesafe.play.play-datacommons_2.11-2.3.6.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/universal/play-scala-1.0/lib/com.typesafe.play.play-exceptions-2.3.6.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/universal/play-scala-1.0/lib/com.typesafe.play.play-functional_2.11-2.3.6.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/universal/play-scala-1.0/lib/com.typesafe.play.play-iteratees_2.11-2.3.6.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/universal/play-scala-1.0/lib/com.typesafe.play.play-jdbc_2.11-2.3.6.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/universal/play-scala-1.0/lib/com.typesafe.play.play-json_2.11-2.3.6.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/universal/play-scala-1.0/lib/com.typesafe.play.play-ws_2.11-2.3.6.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/universal/play-scala-1.0/lib/com.typesafe.play.play_2.11-2.3.6.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/universal/play-scala-1.0/lib/com.typesafe.play.twirl-api_2.11-1.0.2.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/universal/play-scala-1.0/lib/commons-codec.commons-codec-1.9.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/universal/play-scala-1.0/lib/commons-logging.commons-logging-1.1.1.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/universal/play-scala-1.0/lib/io.netty.netty-3.9.3.Final.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/universal/play-scala-1.0/lib/javax.transaction.jta-1.1.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/universal/play-scala-1.0/lib/joda-time.joda-time-2.3.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/universal/play-scala-1.0/lib/net.sf.ehcache.ehcache-core-2.6.8.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/universal/play-scala-1.0/lib/oauth.signpost.signpost-commonshttp4-1.2.1.2.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/universal/play-scala-1.0/lib/oauth.signpost.signpost-core-1.2.1.2.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/universal/play-scala-1.0/lib/org.apache.commons.commons-lang3-3.1.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/universal/play-scala-1.0/lib/org.apache.httpcomponents.httpclient-4.0.1.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/universal/play-scala-1.0/lib/org.apache.httpcomponents.httpcore-4.0.1.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/universal/play-scala-1.0/lib/org.javassist.javassist-3.18.2-GA.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/universal/play-scala-1.0/lib/org.joda.joda-convert-1.6.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/universal/play-scala-1.0/lib/org.scala-lang.modules.scala-parser-combinators_2.11-1.0.1.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/universal/play-scala-1.0/lib/org.scala-lang.modules.scala-xml_2.11-1.0.1.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/universal/play-scala-1.0/lib/org.scala-lang.scala-library-2.11.1.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/universal/play-scala-1.0/lib/org.scala-lang.scala-reflect-2.11.1.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/universal/play-scala-1.0/lib/org.scala-stm.scala-stm_2.11-0.7.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/universal/play-scala-1.0/lib/org.slf4j.jcl-over-slf4j-1.7.6.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/universal/play-scala-1.0/lib/org.slf4j.jul-to-slf4j-1.7.6.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/universal/play-scala-1.0/lib/org.slf4j.slf4j-api-1.7.6.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/universal/play-scala-1.0/lib/play-scala.play-scala-1.0-assets.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/universal/play-scala-1.0/lib/play-scala.play-scala-1.0.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/universal/play-scala-1.0/lib/tyrex.tyrex-1.0.1.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/universal/play-scala-1.0/lib/xerces.xercesImpl-2.11.0.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/universal/play-scala-1.0/lib/xml-apis.xml-apis-1.4.01.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/universal/play-scala-1.0/logs/application.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/universal/play-scala-1.0/share/doc/api/Routes$.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/universal/play-scala-1.0/share/doc/api/controllers/Application$.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/universal/play-scala-1.0/share/doc/api/controllers/ReverseApplication.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/universal/play-scala-1.0/share/doc/api/controllers/ReverseAssets.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/universal/play-scala-1.0/share/doc/api/controllers/javascript/ReverseApplication.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/universal/play-scala-1.0/share/doc/api/controllers/javascript/ReverseAssets.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/universal/play-scala-1.0/share/doc/api/controllers/javascript/package.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/universal/play-scala-1.0/share/doc/api/controllers/package.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/universal/play-scala-1.0/share/doc/api/controllers/ref/ReverseApplication.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/universal/play-scala-1.0/share/doc/api/controllers/ref/ReverseAssets.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/universal/play-scala-1.0/share/doc/api/controllers/ref/package.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/universal/play-scala-1.0/share/doc/api/controllers/routes.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/universal/play-scala-1.0/share/doc/api/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/universal/play-scala-1.0/share/doc/api/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/universal/play-scala-1.0/share/doc/api/index/index-a.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/universal/play-scala-1.0/share/doc/api/index/index-c.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/universal/play-scala-1.0/share/doc/api/index/index-d.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/universal/play-scala-1.0/share/doc/api/index/index-f.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/universal/play-scala-1.0/share/doc/api/index/index-h.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/universal/play-scala-1.0/share/doc/api/index/index-i.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/universal/play-scala-1.0/share/doc/api/index/index-j.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/universal/play-scala-1.0/share/doc/api/index/index-m.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/universal/play-scala-1.0/share/doc/api/index/index-p.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/universal/play-scala-1.0/share/doc/api/index/index-r.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/universal/play-scala-1.0/share/doc/api/index/index-s.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/universal/play-scala-1.0/share/doc/api/index/index-v.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/universal/play-scala-1.0/share/doc/api/lib/arrow-down.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/universal/play-scala-1.0/share/doc/api/lib/arrow-right.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/universal/play-scala-1.0/share/doc/api/lib/class.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/universal/play-scala-1.0/share/doc/api/lib/class_big.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/universal/play-scala-1.0/share/doc/api/lib/class_diagram.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/universal/play-scala-1.0/share/doc/api/lib/class_to_object_big.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/universal/play-scala-1.0/share/doc/api/lib/constructorsbg.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/universal/play-scala-1.0/share/doc/api/lib/conversionbg.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/universal/play-scala-1.0/share/doc/api/lib/defbg-blue.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/universal/play-scala-1.0/share/doc/api/lib/defbg-green.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/universal/play-scala-1.0/share/doc/api/lib/diagrams.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/universal/play-scala-1.0/share/doc/api/lib/diagrams.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/universal/play-scala-1.0/share/doc/api/lib/filter_box_left.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/universal/play-scala-1.0/share/doc/api/lib/filter_box_left2.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/universal/play-scala-1.0/share/doc/api/lib/filter_box_right.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/universal/play-scala-1.0/share/doc/api/lib/filterbg.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/universal/play-scala-1.0/share/doc/api/lib/filterboxbarbg.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/universal/play-scala-1.0/share/doc/api/lib/filterboxbarbg.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/universal/play-scala-1.0/share/doc/api/lib/filterboxbg.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/universal/play-scala-1.0/share/doc/api/lib/fullcommenttopbg.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/universal/play-scala-1.0/share/doc/api/lib/index.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/universal/play-scala-1.0/share/doc/api/lib/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/universal/play-scala-1.0/share/doc/api/lib/jquery-ui.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/universal/play-scala-1.0/share/doc/api/lib/jquery.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/universal/play-scala-1.0/share/doc/api/lib/jquery.layout.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/universal/play-scala-1.0/share/doc/api/lib/modernizr.custom.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/universal/play-scala-1.0/share/doc/api/lib/navigation-li-a.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/universal/play-scala-1.0/share/doc/api/lib/navigation-li.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/universal/play-scala-1.0/share/doc/api/lib/object.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/universal/play-scala-1.0/share/doc/api/lib/object_big.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/universal/play-scala-1.0/share/doc/api/lib/object_diagram.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/universal/play-scala-1.0/share/doc/api/lib/object_to_class_big.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/universal/play-scala-1.0/share/doc/api/lib/object_to_trait_big.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/universal/play-scala-1.0/share/doc/api/lib/object_to_type_big.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/universal/play-scala-1.0/share/doc/api/lib/ownderbg2.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/universal/play-scala-1.0/share/doc/api/lib/ownerbg.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/universal/play-scala-1.0/share/doc/api/lib/ownerbg2.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/universal/play-scala-1.0/share/doc/api/lib/package.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/universal/play-scala-1.0/share/doc/api/lib/package_big.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/universal/play-scala-1.0/share/doc/api/lib/packagesbg.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/universal/play-scala-1.0/share/doc/api/lib/permalink.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/universal/play-scala-1.0/share/doc/api/lib/ref-index.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/universal/play-scala-1.0/share/doc/api/lib/remove.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/universal/play-scala-1.0/share/doc/api/lib/scheduler.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/universal/play-scala-1.0/share/doc/api/lib/selected-implicits.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/universal/play-scala-1.0/share/doc/api/lib/selected-right-implicits.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/universal/play-scala-1.0/share/doc/api/lib/selected-right.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/universal/play-scala-1.0/share/doc/api/lib/selected.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/universal/play-scala-1.0/share/doc/api/lib/selected2-right.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/universal/play-scala-1.0/share/doc/api/lib/selected2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/universal/play-scala-1.0/share/doc/api/lib/signaturebg.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/universal/play-scala-1.0/share/doc/api/lib/signaturebg2.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/universal/play-scala-1.0/share/doc/api/lib/template.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/universal/play-scala-1.0/share/doc/api/lib/template.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/universal/play-scala-1.0/share/doc/api/lib/tools.tooltip.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/universal/play-scala-1.0/share/doc/api/lib/trait.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/universal/play-scala-1.0/share/doc/api/lib/trait_big.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/universal/play-scala-1.0/share/doc/api/lib/trait_diagram.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/universal/play-scala-1.0/share/doc/api/lib/trait_to_object_big.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/universal/play-scala-1.0/share/doc/api/lib/type.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/universal/play-scala-1.0/share/doc/api/lib/type_big.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/universal/play-scala-1.0/share/doc/api/lib/type_diagram.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/universal/play-scala-1.0/share/doc/api/lib/type_to_object_big.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/universal/play-scala-1.0/share/doc/api/lib/typebg.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/universal/play-scala-1.0/share/doc/api/lib/unselected.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/universal/play-scala-1.0/share/doc/api/lib/valuemembersbg.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/universal/play-scala-1.0/share/doc/api/package.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/universal/play-scala-1.0/share/doc/api/views/html/index$.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/universal/play-scala-1.0/share/doc/api/views/html/main$.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/universal/play-scala-1.0/share/doc/api/views/html/package.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/universal/play-scala-1.0/share/doc/api/views/package.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/universal/tmp/bin/play-scala" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/universal/tmp/bin/play-scala.bat" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/output" afterPath="$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/output" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/views/html/addEvent$$anonfun$f$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/views/html/addEvent$.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/views/html/addEvent.class" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/controllers/Application$$anonfun$showEvents$1$$anonfun$apply$1.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/controllers/Application$$anonfun$showEvents$1$$anonfun$apply$1.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/controllers/Application$$anonfun$showEvents$1.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/controllers/Application$$anonfun$showEvents$1.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/controllers/Application$$anonfun$submit$1.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/controllers/Application$$anonfun$submit$1.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/controllers/Application$.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/controllers/Application$.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/views/html/index$$anonfun$f$1.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/views/html/index$$anonfun$f$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/views/html/index$.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/views/html/index$.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/views/html/showEvents$$anonfun$apply$1.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/views/html/showEvents$$anonfun$apply$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/views/html/showEvents$$anonfun$f$1.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/views/html/showEvents$$anonfun$f$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/views/html/showEvents$.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/views/html/showEvents$.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/views/html/showEvents.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/views/html/showEvents.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes_managed/views/html/index$$anonfun$f$1.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes_managed/views/html/index$$anonfun$f$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes_managed/views/html/index$.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes_managed/views/html/index$.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes_managed/views/html/showEvents$$anonfun$apply$1.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes_managed/views/html/showEvents$$anonfun$apply$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes_managed/views/html/showEvents$$anonfun$f$1.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes_managed/views/html/showEvents$$anonfun$f$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes_managed/views/html/showEvents$.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes_managed/views/html/showEvents$.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes_managed/views/html/showEvents.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes_managed/views/html/showEvents.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/$global/assets/$global/streams/sync-mappings" afterPath="$PROJECT_DIR$/target/streams/$global/assets/$global/streams/sync-mappings" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/output" afterPath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/output" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules/root.iml" afterPath="$PROJECT_DIR$/.idea/modules/root.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes_managed/views/html/addEvent$$anonfun$f$1.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes_managed/views/html/addEvent$$anonfun$f$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes_managed/views/html/addEvent$.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes_managed/views/html/addEvent$.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/Application.scala" afterPath="$PROJECT_DIR$/app/controllers/Application.scala" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/index.scala.html" afterPath="$PROJECT_DIR$/app/views/index.scala.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/showEvents.scala.html" afterPath="$PROJECT_DIR$/app/views/showEvents.scala.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build.sbt" afterPath="$PROJECT_DIR$/build.sbt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/addEvent.scala.html" afterPath="$PROJECT_DIR$/app/views/addEvent.scala.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/events" afterPath="$PROJECT_DIR$/events" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/logs/application.log" afterPath="$PROJECT_DIR$/logs/application.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/plugins.sbt" afterPath="$PROJECT_DIR$/project/plugins.sbt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/resolution-cache/default/cca_play-build/scala_2.10/sbt_0.13/0.1-SNAPSHOT/resolved.xml.properties" afterPath="$PROJECT_DIR$/project/target/resolution-cache/default/cca_play-build/scala_2.10/sbt_0.13/0.1-SNAPSHOT/resolved.xml.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/resolution-cache/default/cca_play-build/scala_2.10/sbt_0.13/0.1-SNAPSHOT/resolved.xml.xml" afterPath="$PROJECT_DIR$/project/target/resolution-cache/default/cca_play-build/scala_2.10/sbt_0.13/0.1-SNAPSHOT/resolved.xml.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-cca_play-build-compile-internal.xml" afterPath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-cca_play-build-compile-internal.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-cca_play-build-compile.xml" afterPath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-cca_play-build-compile.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-cca_play-build-docs.xml" afterPath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-cca_play-build-docs.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-cca_play-build-optional.xml" afterPath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-cca_play-build-optional.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-cca_play-build-plugin.xml" afterPath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-cca_play-build-plugin.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-cca_play-build-pom.xml" afterPath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-cca_play-build-pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-cca_play-build-provided.xml" afterPath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-cca_play-build-provided.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-cca_play-build-runtime-internal.xml" afterPath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-cca_play-build-runtime-internal.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-cca_play-build-runtime.xml" afterPath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-cca_play-build-runtime.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-cca_play-build-scala-tool.xml" afterPath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-cca_play-build-scala-tool.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-cca_play-build-sources.xml" afterPath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-cca_play-build-sources.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-cca_play-build-test-internal.xml" afterPath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-cca_play-build-test-internal.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-cca_play-build-test.xml" afterPath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-cca_play-build-test.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/out" afterPath="$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/out" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/stylesheets/bootstrap.css" afterPath="$PROJECT_DIR$/public/stylesheets/bootstrap.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/play-scala/play-scala_2.11/1.0/resolved.xml.properties" afterPath="$PROJECT_DIR$/target/resolution-cache/play-scala/play-scala_2.11/1.0/resolved.xml.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/play-scala/play-scala_2.11/1.0/resolved.xml.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/play-scala/play-scala_2.11/1.0/resolved.xml.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/play-scala-play-scala_2.11-compile-internal.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/play-scala-play-scala_2.11-compile-internal.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/play-scala-play-scala_2.11-compile.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/play-scala-play-scala_2.11-compile.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/play-scala-play-scala_2.11-docs.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/play-scala-play-scala_2.11-docs.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/play-scala-play-scala_2.11-optional.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/play-scala-play-scala_2.11-optional.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/play-scala-play-scala_2.11-plugin.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/play-scala-play-scala_2.11-plugin.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/play-scala-play-scala_2.11-pom.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/play-scala-play-scala_2.11-pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/play-scala-play-scala_2.11-provided.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/play-scala-play-scala_2.11-provided.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/play-scala-play-scala_2.11-runtime-internal.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/play-scala-play-scala_2.11-runtime-internal.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/play-scala-play-scala_2.11-runtime.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/play-scala-play-scala_2.11-runtime.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/play-scala-play-scala_2.11-scala-tool.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/play-scala-play-scala_2.11-scala-tool.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/play-scala-play-scala_2.11-sources.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/play-scala-play-scala_2.11-sources.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/play-scala-play-scala_2.11-test-internal.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/play-scala-play-scala_2.11-test-internal.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/play-scala-play-scala_2.11-test.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/play-scala-play-scala_2.11-test.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/cache/root/compile/play_instrumentation" afterPath="$PROJECT_DIR$/target/scala-2.11/cache/root/compile/play_instrumentation" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/views/addEvent.scala.html" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/views/addEvent.scala.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/src_managed/main/controllers/routes.java" afterPath="$PROJECT_DIR$/target/scala-2.11/src_managed/main/controllers/routes.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/src_managed/main/routes_reverseRouting.scala" afterPath="$PROJECT_DIR$/target/scala-2.11/src_managed/main/routes_reverseRouting.scala" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/src_managed/main/routes_routing.scala" afterPath="$PROJECT_DIR$/target/scala-2.11/src_managed/main/routes_routing.scala" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/twirl/main/views/html/addEvent.template.scala" afterPath="$PROJECT_DIR$/target/scala-2.11/twirl/main/views/html/addEvent.template.scala" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/twirl/main/views/html/index.template.scala" afterPath="$PROJECT_DIR$/target/scala-2.11/twirl/main/views/html/index.template.scala" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/out" afterPath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/out" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/compile/compile/$global/streams/export" afterPath="$PROJECT_DIR$/target/streams/compile/compile/$global/streams/export" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/compile/incCompileSetup/$global/streams/inc_compile_2.11" afterPath="$PROJECT_DIR$/target/streams/compile/incCompileSetup/$global/streams/inc_compile_2.11" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/web/public/main/stylesheets/bootstrap.css" afterPath="$PROJECT_DIR$/target/web/public/main/stylesheets/bootstrap.css" />
     </list>
     <ignored path="CCA_Play.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -404,8 +55,8 @@
       <file leaf-file-name="Application.scala" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/controllers/Application.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="284">
-              <caret line="46" column="7" selection-start-line="46" selection-start-column="7" selection-end-line="46" selection-end-column="7" />
+            <state relative-caret-position="15">
+              <caret line="20" column="72" selection-start-line="20" selection-start-column="72" selection-end-line="20" selection-end-column="72" />
               <folding>
                 <element signature="e#21#38#0" expanded="true" />
               </folding>
@@ -413,11 +64,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="showEvents.scala.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="addEvent.scala.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/views/addEvent.scala.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="133">
+              <caret line="30" column="62" selection-start-line="30" selection-start-column="62" selection-end-line="30" selection-end-column="62" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="showEvents.scala.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/showEvents.scala.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="269">
-              <caret line="47" column="24" selection-start-line="47" selection-start-column="24" selection-end-line="47" selection-end-column="24" />
+            <state relative-caret-position="403">
+              <caret line="31" column="8" selection-start-line="31" selection-start-column="8" selection-end-line="31" selection-end-column="8" />
               <folding />
             </state>
           </provider>
@@ -448,11 +109,19 @@
         <option value="$PROJECT_DIR$/conf/routes" />
         <option value="$PROJECT_DIR$/build.sbt" />
         <option value="$PROJECT_DIR$/app/views/index.scala.html" />
-        <option value="$PROJECT_DIR$/app/views/addEvent.scala.html" />
         <option value="$PROJECT_DIR$/target/scala-2.11/classes/views/addEvent.scala.html" />
-        <option value="$PROJECT_DIR$/app/controllers/Application.scala" />
         <option value="$PROJECT_DIR$/app/views/showEvents.scala.html" />
+        <option value="$PROJECT_DIR$/app/controllers/ExampleSpec.scala" />
+        <option value="$PROJECT_DIR$/app/controllers/Application.scala" />
+        <option value="$PROJECT_DIR$/app/views/addEvent.scala.html" />
       </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="Bundled (Maven 3)" />
+      </MavenGeneralSettings>
     </option>
   </component>
   <component name="ProjectFrameBounds">
@@ -613,6 +282,34 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="logs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="play-scala" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CCA_Play" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="conf" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="play-scala" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CCA_Play" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="app" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -637,8 +334,8 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -646,6 +343,11 @@
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/views" />
+    </key>
   </component>
   <component name="RunManager" selected="SBT Task.Run">
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
@@ -1017,9 +719,9 @@
       <window_info id="SBT" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3262295" sideWeight="0.50293255" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.17781404" sideWeight="0.511713" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.17781404" sideWeight="0.49120235" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.17781404" sideWeight="0.48828697" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -1064,23 +766,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/controllers/Application.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="3" selection-start-line="12" selection-start-column="3" selection-end-line="12" selection-end-column="3" />
-          <folding>
-            <element signature="e#21#38#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/target/scala-2.11/classes/views/addEvent.scala.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/build.sbt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
@@ -1326,13 +1011,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/project/plugins.sbt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/main.scala.html" />
     <entry file="file://$PROJECT_DIR$/target/scala-2.11/twirl/main/views/html/index.template.scala">
       <provider selected="true" editor-type-id="text-editor">
@@ -1363,24 +1041,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/index.scala.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="7" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/javascripts/check_fields.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/addEvent.scala.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="10" selection-start-line="16" selection-start-column="10" selection-end-line="16" selection-end-column="10" />
         </state>
       </provider>
     </entry>
@@ -1395,14 +1059,42 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="127">
           <caret line="58" column="34" selection-start-line="58" selection-start-column="34" selection-end-line="58" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project/plugins.sbt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/ExampleSpec.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="75" selection-start-line="13" selection-start-column="75" selection-end-line="13" selection-end-column="75" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/logs/application.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/index.scala.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="7" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="8" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/Application.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="284">
-          <caret line="46" column="7" selection-start-line="46" selection-start-column="7" selection-end-line="46" selection-end-column="7" />
+        <state relative-caret-position="15">
+          <caret line="20" column="72" selection-start-line="20" selection-start-column="72" selection-end-line="20" selection-end-column="72" />
           <folding>
             <element signature="e#21#38#0" expanded="true" />
           </folding>
@@ -1411,8 +1103,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/showEvents.scala.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="269">
-          <caret line="47" column="24" selection-start-line="47" selection-start-column="24" selection-end-line="47" selection-end-column="24" />
+        <state relative-caret-position="403">
+          <caret line="31" column="8" selection-start-line="31" selection-start-column="8" selection-end-line="31" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/addEvent.scala.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="30" column="62" selection-start-line="30" selection-start-column="62" selection-end-line="30" selection-end-column="62" />
           <folding />
         </state>
       </provider>
