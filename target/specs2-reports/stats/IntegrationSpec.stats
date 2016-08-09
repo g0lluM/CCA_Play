@@ -1,0 +1,18 @@
+<IntegrationSpec-results timestamp="1470216210434"><result location="IntegrationSpec (IntegrationSpec.scala:17)" id="708906715"><stats time="3391" expectations="1" failures="1" examples="1"></stats></result>
+</IntegrationSpec-results>
+<IntegrationSpec-stats timestamp="1470216210436"><stats time="3392" expectations="1" failures="1" examples="1"></stats></IntegrationSpec-stats>
+<IntegrationSpec-results timestamp="1470231995874"><result location="IntegrationSpec (IntegrationSpec.scala:17)" id="708906715"><stats time="1099" expectations="1" failures="1" examples="1"></stats></result>
+</IntegrationSpec-results>
+<IntegrationSpec-stats timestamp="1470231995877"><stats time="1101" expectations="1" failures="1" examples="1"></stats></IntegrationSpec-stats>
+<IntegrationSpec-results timestamp="1470232556814"><result location="IntegrationSpec (IntegrationSpec.scala:17)" id="708906715"><stats time="1068" expectations="1" failures="1" examples="1"></stats></result>
+</IntegrationSpec-results>
+<IntegrationSpec-stats timestamp="1470232556825"><stats time="1070" expectations="1" failures="1" examples="1"></stats></IntegrationSpec-stats>
+<IntegrationSpec-results timestamp="1470233781767"><result location="IntegrationSpec (IntegrationSpec.scala:17)" id="708906715"><stats time="2066" expectations="1" failures="1" examples="1"></stats></result>
+</IntegrationSpec-results>
+<IntegrationSpec-stats timestamp="1470233781772"><stats time="2066" expectations="1" failures="1" examples="1"></stats></IntegrationSpec-stats>
+<IntegrationSpec-results timestamp="1470233851614"><result location="IntegrationSpec (IntegrationSpec.scala:17)" id="708906715"><stats time="2176" expectations="1" failures="1" examples="1"></stats></result>
+</IntegrationSpec-results>
+<IntegrationSpec-stats timestamp="1470233851618"><stats time="2176" expectations="1" failures="1" examples="1"></stats></IntegrationSpec-stats>
+<IntegrationSpec-results timestamp="1470233886090"><result location="IntegrationSpec (IntegrationSpec.scala:17)" id="708906715"><stats time="1813" expectations="1" failures="1" examples="1"></stats></result>
+</IntegrationSpec-results>
+<IntegrationSpec-stats timestamp="1470233886103"><stats time="1814" expectations="1" failures="1" examples="1"></stats></IntegrationSpec-stats>

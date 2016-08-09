@@ -1,16 +1,13 @@
 package controllers
 
-import play.api._
 import play.api.mvc._
 import java.io._
 import scala.io.Source._
-
 
 object Application extends Controller {
 
   def index = Action {
     Ok(views.html.index.apply)
-    // Ok("view")
   }
 
   def submit = Action { implicit request =>
@@ -22,7 +19,7 @@ object Application extends Controller {
     val eventPrice = request.body.asFormUrlEncoded.get("Price")(0)
     val eventSpeaker = request.body.asFormUrlEncoded.get("Speaker")(0)
 
-    val text = "  " + eventPlace + "  " + eventDetails + "  " + eventDate + "  " + eventAbstract + "  " + eventPrice + "  " + eventSpeaker + "\n"
+    val text = eventPlace + "\t" + eventDetails + "\t" + eventDate + " \t" + eventAbstract + "\t" + eventPrice + " \t" + eventSpeaker + "\n"
 
     val pw = new PrintWriter(new FileOutputStream("events", true)); // Open file with add mode
     pw.write(text)
@@ -38,11 +35,9 @@ object Application extends Controller {
 
     for(line <- fromFile("events").getLines)
     {
-      events(i) = line.split(" ")
+      events(i) = line.split("\t")
       i = i+1
-     // println(events(i))
     }
     Ok(views.html.showEvents(events))
-    //Ok("")
   }
 }

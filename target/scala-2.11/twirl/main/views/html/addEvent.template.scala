@@ -32,13 +32,13 @@ Seq[Any](format.raw/*1.1*/("""<!DOCTYPE html>
     <script src="/public/javascripts/check_fields.js"></script>
 </head>
 
-<body>
+ <body>
     <h3>Publish your event below:</h3>
     <form action="/submit" method="post">
         <div class="row">
             <div class="col-md-4">
                 <label>Place*:
-                    <input type="radio" name="City" value="London" selected="true" required/>London
+                    <input type="radio" name="City" value="London" required/>London
                     <input type="radio" name="City" value="Cambridge"/>Cambridge
                 </label>
             </div>
@@ -80,7 +80,7 @@ Seq[Any](format.raw/*1.1*/("""<!DOCTYPE html>
             </div>
         </div>
     </form>
-</body>
+ </body>
 </html>"""))}
   }
 
@@ -93,9 +93,9 @@ Seq[Any](format.raw/*1.1*/("""<!DOCTYPE html>
 }
               /*
                   -- GENERATED --
-                  DATE: Mon Aug 01 16:20:24 BST 2016
+                  DATE: Mon Aug 08 14:16:46 BST 2016
                   SOURCE: /home/antonin/IdeaProjects/CCA_Play/app/views/addEvent.scala.html
-                  HASH: 45ae25ed75c9fc518703523eeda2364148616a7a
+                  HASH: 9b4933127e5b10e1ee672d27bc16969446b83fba
                   MATRIX: 583->0
                   LINES: 22->1
                   -- GENERATED --
